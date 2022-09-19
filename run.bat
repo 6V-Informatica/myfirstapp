@@ -1,4 +1,4 @@
-"D:\git\bin\git.exe" config --global user.name "brumleger"
+"D:\git\bin\git.exe" config --global --unset credential.helper
 cd D:\projects\voorbeeld-myfirstapp
 "D:\git\bin\git.exe" add --all
 "D:\git\bin\git.exe" commit -m "Made some changes"
